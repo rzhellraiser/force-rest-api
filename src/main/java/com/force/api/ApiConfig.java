@@ -12,7 +12,8 @@ public class ApiConfig {
 	String apiVersionString;
 	String username;
 	String password;
-	String loginEndpoint = "https://login.salesforce.com";
+	//String loginEndpoint = "https://login.salesforce.com";
+	String loginEndpoint = "https://belatrix-dev-ed.my.salesforce.com";
 	String clientId;
 	String clientSecret;
 	String redirectURI;
@@ -164,6 +165,4 @@ public class ApiConfig {
 	public String getApiVersionString() {
 		return apiVersionString != null ? apiVersionString : apiVersion.toString();
 	}
-
-
 }

@@ -14,7 +14,7 @@ public class JodaTimeAccount {
     String id;
     @JsonProperty(value="Name")
     String name;
-    @JsonProperty(value="externalId__c")
+    @JsonProperty(value="externalId_c__c")
     String externalId;
     @JsonProperty(value="AnnualRevenue")
     private Double annualRevenue;

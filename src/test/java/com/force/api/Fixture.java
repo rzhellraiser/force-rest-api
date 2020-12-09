@@ -9,12 +9,12 @@ public class Fixture {
 
 	static Properties props;
 	static {
-		InputStream in = Fixture.class.getResourceAsStream("/test.properties");
+		InputStream in = Fixture.class.getResourceAsStream("/env.properties");
 		if(in!=null) {
-			System.out.println("Setting test config from test.properties resource");
+			System.out.println("Setting test config from env.properties resource");
 			props = new Properties();
 			try {
-				props.load(Fixture.class.getResourceAsStream("/test.properties"));
+				props.load(Fixture.class.getResourceAsStream("/env.properties"));
 			} catch (IOException e) {
 				throw new RuntimeException(e);
 			}
@@ -38,5 +38,4 @@ public class Fixture {
 			}
 		}
 	}
-
 }

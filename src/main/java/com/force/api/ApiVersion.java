@@ -29,7 +29,7 @@ public enum ApiVersion {
 	V24 ("v24.0"),
 	V23 ("v23.0"),
 	V22 ("v22.0"), 
-	DEFAULT_VERSION ("v45.0");
+	DEFAULT_VERSION ("v49.0");
 
 	final String v;
 	
